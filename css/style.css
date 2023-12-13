@@ -237,3 +237,35 @@ a {
 .footer-icon i {
   padding: 10px;
 }
+
+.center-footer .footer-icon {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-player {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.footer-player span {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  display: inline-block;
+}
+
+.line {
+  border: 1px solid white;
+  width: 350px;
+  display: flex;
+  flex-direction: row;
+  display: inline-block;
+}
+
+.line-right {
+  border: 1px solid white;
+  width: 150px;
+  display: flex;
+  flex-direction: row;
+  display: inline-block;
+}
