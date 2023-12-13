@@ -69,3 +69,25 @@ a {
   background-color: #080b12;
   height: 100px;
 }
+
+.upgrade-bar-button {
+  color: white;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: flex-end;
+  padding: 40px;
+}
+
+/*UPGRADE BAR*/
+#menu {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#menu li {
+  padding: 15px;
+}
