@@ -60,5 +60,12 @@ a {
 
 /*APP MAIN*/
 #app-main {
+  height: calc(100vh - 100px);
   flex-grow: 1;
+}
+
+/*UPGRADE BAR*/
+#upgrade-bar {
+  background-color: #080b12;
+  height: 100px;
 }
