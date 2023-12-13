@@ -1,3 +1,5 @@
+/*UTILS*/
+
 * {
   margin: 0;
   padding: 0;
@@ -35,4 +37,28 @@ a {
   margin-right: -15px;
   display: flex;
   flex-wrap: wrap;
+}
+
+/*APP TOP*/
+#app-top {
+  background-color: #141922;
+  height: calc(100vh - 120px);
+  display: flex;
+}
+
+/*APP PLAYER*/
+#app-player {
+  background-color: #282828;
+  height: 120px;
+}
+
+/*APP NAVBAR*/
+#app-navbar {
+  width: 300px;
+  background-color: #000000;
+}
+
+/*APP MAIN*/
+#app-main {
+  flex-grow: 1;
 }
