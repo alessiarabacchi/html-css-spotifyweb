@@ -69,6 +69,8 @@ a {
 #upgrade-bar {
   background-color: #080b12;
   height: 100px;
+  position: sticky;
+  top: 0;
 }
 
 .upgrade-bar-button {
