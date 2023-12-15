@@ -170,6 +170,8 @@ a {
 
 .card-img {
   padding: 20px;
+  min-width: 200px;
+  min-height: 200px;
 }
 
 .card-first-name {
@@ -268,4 +270,160 @@ a {
   display: flex;
   flex-direction: row;
   display: inline-block;
+}
+
+/*MEDIA TABLET*/
+@media screen and (max-width: 768px) {
+  /*APP NAVBAR*/
+  #app-navbar {
+    min-width: 200px;
+  }
+
+  #menu li {
+    padding: 15px;
+    display: inline-block;
+    font-size: 10px;
+  }
+
+  .title {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5px;
+    margin-bottom: 20px;
+  }
+
+  /*CARDS*/
+
+  .card {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 100px;
+    min-height: 100px;
+    margin-right: 70px;
+    margin-bottom: 120px;
+  }
+
+  .card-img {
+    display: block;
+  }
+
+  .card-first-name {
+    margin-left: 60px;
+  }
+
+  .card-second-name {
+    margin-left: 70px;
+  }
+
+  /*FOOTER*/
+  /*APP PLAYER*/
+  .left-footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  .footer-img {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+  }
+
+  .footer-icon {
+    margin-top: 15px;
+  }
+
+  .footer-icon i {
+    padding: 10px;
+  }
+
+  .line {
+    width: 150px;
+  }
+
+  .line-right {
+    border: 1px solid white;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    display: inline-block;
+  }
+}
+
+/*MEDIA MOBILE*/
+@media screen and (max-width: 486spx) {
+  /*APP NAVBAR*/
+  #app-navbar {
+    min-width: 200px;
+  }
+
+  #menu li {
+    padding: 15px;
+    display: inline-block;
+    font-size: 10px;
+  }
+
+  .title {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5px;
+    margin-bottom: 20px;
+  }
+
+  /*CARDS*/
+
+  .card {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 100px;
+    min-height: 100px;
+    margin-right: 70px;
+    margin-bottom: 120px;
+  }
+
+  .card-img {
+    display: block;
+  }
+
+  .card-first-name {
+    margin-left: 60px;
+  }
+
+  .card-second-name {
+    margin-left: 70px;
+  }
+
+  /*FOOTER*/
+  /*APP PLAYER*/
+  .left-footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  .footer-img {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+  }
+
+  .footer-icon {
+    margin-top: 15px;
+  }
+
+  .footer-icon i {
+    padding: 10px;
+  }
+
+  .line {
+    width: 150px;
+  }
+
+  .line-right {
+    border: 1px solid white;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    display: inline-block;
+  }
 }
