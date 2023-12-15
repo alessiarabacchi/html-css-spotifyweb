@@ -55,6 +55,11 @@ a {
 .logo {
   width: 150px;
   height: 100px;
+  display: block;
+}
+
+.logo-small {
+  display: none;
 }
 
 .menu-icons img {
@@ -351,79 +356,90 @@ a {
 }
 
 /*MEDIA MOBILE*/
-@media screen and (max-width: 486spx) {
+@media screen and (max-width: 486px) {
   /*APP NAVBAR*/
   #app-navbar {
-    min-width: 200px;
+    width: 50px;
   }
 
-  #menu li {
-    padding: 15px;
-    display: inline-block;
+  .logo {
+    display: none;
+  }
+
+  .logo-small {
+    display: block;
+    width: 25px;
+    height: 25px;
+    margin: 10px 0;
+  }
+
+  .menu-icons span {
+    display: none;
+  }
+
+  .title-navbar {
+    display: none;
+  }
+
+  .playlist {
+    display: none;
+  }
+
+  .playlist i {
+    display: none;
+  }
+
+  .list-playlist {
+    display: none;
+  }
+
+  .list-playlist li {
+    display: none;
+  }
+
+  .final-playlist {
+    display: none;
+  }
+
+  .final-playlist i,
+  .final-playlist h4 {
+    display: none;
+  }
+
+  /*UPGRADE BAR*/
+
+  .upgrade-bar-button {
     font-size: 10px;
   }
 
-  .title {
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-left: 5px;
-    margin-bottom: 20px;
+  /*UPGRADE BAR*/
+  #menu {
+    font-size: 10px;
+    text-align: center;
   }
 
   /*CARDS*/
 
-  .card {
-    display: flex;
-    flex-wrap: wrap;
-    min-width: 100px;
-    min-height: 100px;
-    margin-right: 70px;
-    margin-bottom: 120px;
+  .second-section .title {
+    margin-top: 50px;
   }
 
-  .card-img {
-    display: block;
-  }
-
-  .card-first-name {
-    margin-left: 60px;
-  }
-
-  .card-second-name {
-    margin-left: 70px;
+  .third-section {
+    margin-top: 50px;
   }
 
   /*FOOTER*/
   /*APP PLAYER*/
-  .left-footer {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-  }
-
-  .footer-img {
-    display: flex;
-    align-items: center;
-    margin-top: 15px;
-  }
-
-  .footer-icon {
-    margin-top: 15px;
-  }
 
   .footer-icon i {
     padding: 10px;
   }
 
   .line {
-    width: 150px;
+    width: 90px;
   }
 
   .line-right {
-    border: 1px solid white;
-    width: 150px;
-    display: flex;
-    flex-direction: row;
-    display: inline-block;
+    width: 50px;
   }
 }
